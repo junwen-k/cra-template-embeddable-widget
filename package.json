@@ -1,0 +1,27 @@
+{
+  "name": "cra-template-embeddable-widget",
+  "version": "1.0.0",
+  "author": "Kwan Jun Wen <junwenkwan97@gmail.com>",
+  "keywords": [
+    "react",
+    "react-widget",
+    "create-react-app",
+    "template"
+  ],
+  "description": "A template that creates an embeddable widget based on Create React App.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/junwen-k/cta-template-embeddable-widget.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "bugs": {
+    "url": "https://github.com/junwen-k/cta-template-embeddable-widget/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}

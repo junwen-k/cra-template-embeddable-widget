@@ -1,0 +1,40 @@
+.Widget {
+  text-align: center;
+}
+
+.WidgetHeader {
+  background-color: #282c34;
+  border-radius: 8px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  padding: 35px 25px;
+  color: white;
+}
+
+.WidgetLogo {
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .WidgetLogo {
+    animation: WidgetLogoSpin infinite 20s linear;
+  }
+}
+
+.WidgetLink {
+  color: #61dafb;
+}
+
+@keyframes WidgetLogoSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
